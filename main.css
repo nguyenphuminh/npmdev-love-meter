@@ -1,0 +1,70 @@
+body {
+	font-family: comic sans ms;
+	background-image: url("background.jpg");
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#header {
+	color:white;
+	position: absolute;
+	font-size:450%;
+	left:35%;
+	right:25%;
+}
+
+#task {
+	position:absolute;
+	margin:17%;
+	left:20%;
+	top:10%;
+}
+
+#result {
+	color:white;
+	font-size:150%;
+}
+
+#p1 {
+        font-size:100%;
+	border: 1px white;
+        padding:15%;
+}
+
+.class1 {
+	border: 1px white;
+	padding:10%;
+	transition: 0.8s;
+	cursor: pointer;
+}
+
+.class11 {
+    background-color:white;
+	color:gray;
+}
+
+.class11:hover {
+	padding:15%;
+	background-color:gray;
+	color:white;
+}
+
+.link {
+    height:20%;
+    border:3px solid white;
+    position:absolute;
+    top:135%;
+    right:0%;
+    left:0%;
+}
+
+.link2 {
+    font-size:160%;
+    position:relative;
+    top:15%;
+    left:5%;
+    color:white;
+}
